@@ -1,0 +1,10 @@
+.Topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 5%;
+    color: white;
+}
+
+.Topbar .stats svg {
+    margin-left: 5px;
+}

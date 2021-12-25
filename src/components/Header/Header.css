@@ -1,0 +1,34 @@
+.Header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 5% 0 5%;
+}
+
+.Header .greet {
+    width: 70%;
+}
+
+.Header .profile-pic {
+    width: 30%;
+    text-align: right;
+}
+
+.Header .profile-pic img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.287);
+}
+
+.Header .greet h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.Header .greet p {
+    font-size: 18px;
+    font-weight: 300;
+}

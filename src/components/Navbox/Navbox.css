@@ -1,0 +1,75 @@
+.Navbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    padding: .5rem 0;
+    margin: 1.8rem auto 0 auto;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.178);
+}
+
+.Navbox .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem 0;
+    flex: 1 0 33%;
+}
+
+.Navbox .title .icon {
+    display: flex;
+    padding: .6rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Navbox .title .icon svg {
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+}
+
+.Navbox .title p {
+    color: rgba(0, 0, 0, 0.349);
+    font-size: 15px;
+}
+
+.Navbox .title:nth-child(1) .icon {
+    color: #4bd9d1;
+    background-color: #e2f7fa;
+    border: 5px solid #f9fdfe;
+    
+}
+
+.Navbox .title:nth-child(2) .icon {
+    color: #76bfed;
+    background-color: #e3f2fd;
+    border: 5px solid #f8fbfd;
+}
+
+.Navbox .title:nth-child(3) .icon {
+    color: #7492ea;
+    background-color: #e6eafc;
+    border: 5px solid #f6f8ff;
+}
+
+.Navbox .title:nth-child(4) .icon {
+    color: #a179f2;    
+    background-color: #f1edfb;
+    border: 5px solid #faf9fe;
+}
+
+.Navbox .title:nth-child(5) .icon {
+    color: #d497e1;    
+    background-color: #f7e9fa;
+    border: 5px solid #fcf7fc;
+}
+
+.Navbox .title:nth-child(6) .icon {
+    color: #eb79ac;    
+    background-color: #ffe2ed;
+    border: 5px solid #fef8fa;
+}

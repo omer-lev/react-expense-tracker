@@ -1,0 +1,74 @@
+.Balance {
+    padding: 1rem 5% .5rem 5%;
+}
+
+.Balance h3 {
+    font-weight: 500;
+    color: rgb(121, 121, 121);
+}
+
+.Balance .currencies {
+    display: flex;
+    justify-content: space-between;
+    padding-top: .5rem;
+}
+
+.Balance .currencies .coin {
+    width: 48%;
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.068);
+}
+
+.Balance .currencies .coin .dot {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: .7rem .9rem 2rem .9rem;
+    border-radius: 50%;
+}
+
+.Balance .currencies .coin h2 {
+    margin-left: .9rem;
+    color: #434345;
+    font-weight: 500;
+}
+
+.Balance .currencies .coin p {
+    margin: 0 0 .8rem .9rem;
+    color: #bcbcbe;
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.Balance .currencies .coin:nth-child(1) .dot {
+    background-color: #6e67f7;
+    border: 4px solid #dcd6ff;
+}
+
+.Balance .currencies .coin:nth-child(2) .dot {
+    background-color: #fc72ae;
+    border: 4px solid #fbe1ee;
+}
+
+.Balance .spendings, .Balance .earnings {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .8rem .8rem;
+    margin: 1rem 0;
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.068);
+}
+
+.Balance .spendings .stats h2, .Balance .earnings .stats h2 {
+    color: #434345;
+    font-weight: 500;
+}
+
+.Balance .spendings .chart, .Balance .earnings .chart {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #766af8a4;
+    border-radius: 50%;
+}
